@@ -11,7 +11,7 @@
 	<h1 style="width:100%;text-align:center;">Internship Form</h1>
 	<form>
 		<label for="first-name-input">First Name</label>
-		<input id="first-name-input" type="text" required/>
+		<input id="first-name-input" class="form-control invalid-feedback" type="text" required/>
 		<label for="last-name-input">Last Name</label>
 		<input id="last-name-input" type="text" required/>
 		<label for="email-input">Email Address</label>
@@ -27,7 +27,8 @@
 		</select>
 		<label for="roll-no-input">Roll No.</label>
 		<input id="roll-no-input" type="text" required/>
-		<input id="conditions-checkbox" type="checkbox" required/>Agree to terms and conditions
+		<label for="conditions-checkbox">Agree to terms and conditions</label>
+		<input id="conditions-checkbox" type="checkbox" required/>
 		<button type="submit">
 			Submit Form
 		</button>
